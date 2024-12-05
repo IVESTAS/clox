@@ -12,7 +12,7 @@ disassembleChunk(Chunk* chunk, const char* name)
     }
 }
 
-static int
+int
 simpleInstruction(const char* name, int offset)
 {
     printf("%s\n", name);
